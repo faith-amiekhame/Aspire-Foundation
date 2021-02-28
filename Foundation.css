@@ -30,6 +30,11 @@ header video {
     opacity: .8;
 }
 
+header img {
+    width: 100%;
+    height: 100%;
+}
+
 .overlay {
     position: absolute;
     top: 0;
@@ -92,6 +97,7 @@ nav .logo {
 
 .show-menu {
     height: 13rem;
+    background-color: #ffb703;
 }
 
 @media screen and (min-width: 800px) {
